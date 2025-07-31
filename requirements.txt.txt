@@ -1,0 +1,28 @@
+opencv-python
+numpy
+pandas
+scikit-learn
+tensorflow
+keras
+imutils
+openpyxl
+matplotlib
+onnxruntime
+
+
+Explanation of important ones:
+
+
+opencv-python: webcam, face detection
+
+numpy, pandas: data handling
+
+tensorflow, keras: for emotion model (emotion_model.hdf5)
+
+scikit-learn: for classifier like SVM, k-NN
+
+imutils: image resizing, rotation, etc.
+
+openpyxl: to write to Excel files (attendance.xlsx)
+
+onnxruntime: if you're using emotion-ferplus-8.onnx instead of .hdf5
